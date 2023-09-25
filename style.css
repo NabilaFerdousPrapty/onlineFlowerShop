@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.section-margin {
+    margin-top: 170px;
+}
+
+/* banner section style */
+
+.banner {
+    padding: 30px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title,
+.sub-title {
+    max-width: 600px;
+    padding-left: 50px;
+}
+
+.title {
+
+    color: #272727;
+    font-size: 80px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.sub-title {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.btn-primary {
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-left: 43px;
+    padding-right: 43px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #E55473;
+    border-radius: 8px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    display: inline-flex;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-family: Lato;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+/* featured flower section */
+.flower-description{
+    text-align: center;
+}
+.description-title{
+    color: #272727;
+font-size: 40px;
+font-family: Lato;
+font-weight: 800;
+word-wrap: break-word;
+margin-bottom: 24px;
+
+}
+.description-paragraph{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-family: Lato;
+font-weight: 400;
+line-height: 30px;
+word-wrap: break-word;
+margin-bottom: 80px;
+
+}
+.flower{
+    height: 300px;
+}
+.flower-wraper {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.flower1,
+.flower2,
+.flower3 {
+    max-height: 100%;
+    border-top-left-radius: 300px;
+    border-top-right-radius: 300px
+}
+
+.flower1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    
+    padding: 30px 30px;
+}
+
+.flower2 {
+    padding: 30px 5px;
+    background-color: rgba(5, 150.70, 160, 0.15);
+}
+
+.flower3 {
+    padding: 30px 35px;
+    background-color: rgba(71, 125, 17, 0.15);
+}
+.text-line{
+    margin: 10px;
+    text-align: center;
+   
+font-size: 24px;
+font-family: Lato;
+font-weight: 700;
+text-decoration: underline;
+line-height: 35px;
+word-wrap: break-word
+}
+.text-line a{
+    color: #272727;
+
+}
+
+/* feature section */
+.feature{
+    margin: 100px;
+    padding: 75px ;
+    text-align: center;
+    background-color:  rgba(39, 39, 39, 0.05);
+     border-radius: 8px
+}
+.our-feature{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+/* hotdeals section */
+.hot-deals{
+    background-color: rgba(229, 84, 115, 0.05); 
+    border-radius: 8px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.our-deals{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 200px;
+}
+.deals{
+    max-width: 600px;
+}
+.our-deals h1{
+    color: #272727;
+font-size: 40px;
+font-family: Lato;
+font-weight: 800;
+word-wrap: break-word;
+}
+.our-deals h1 span{
+    color: #E55473;
+font-size: 40px;
+font-family: Lato;
+font-weight: 800;
+word-wrap: break-word;
+}
+.our-deals p{
+    
+color: rgba(39, 39, 39, 0.60);
+ font-size: 18px;
+ font-family: Lato;
+ font-weight: 400;
+ line-height: 30px;
+ word-wrap: break-word
+}
+.deal-image{
+    height:300px ;
+}

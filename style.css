@@ -64,37 +64,41 @@
 }
 
 /* featured flower section */
-.flower-description{
+.flower-description {
     text-align: center;
 }
-.description-title{
+
+.description-title {
     color: #272727;
-font-size: 40px;
-font-family: Lato;
-font-weight: 800;
-word-wrap: break-word;
-margin-bottom: 24px;
+    font-size: 40px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin-bottom: 24px;
 
 }
-.description-paragraph{
+
+.description-paragraph {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-family: Lato;
-font-weight: 400;
-line-height: 30px;
-word-wrap: break-word;
-margin-bottom: 80px;
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    margin-bottom: 80px;
 
 }
-.flower{
+
+.flower {
     height: 300px;
 }
+
 .flower-wraper {
     display: flex;
     gap: 24px;
     justify-content: center;
     align-items: center;
-   
+
 }
 
 .flower1,
@@ -107,7 +111,7 @@ margin-bottom: 80px;
 
 .flower1 {
     background-color: rgba(167, 33, 98, 0.15);
-    
+
     padding: 30px 30px;
 }
 
@@ -120,32 +124,35 @@ margin-bottom: 80px;
     padding: 30px 35px;
     background-color: rgba(71, 125, 17, 0.15);
 }
-.text-line{
+
+.text-line {
     margin: 10px;
     text-align: center;
-   
-font-size: 24px;
-font-family: Lato;
-font-weight: 700;
-text-decoration: underline;
-line-height: 35px;
-word-wrap: break-word
+
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 700;
+    text-decoration: underline;
+    line-height: 35px;
+    word-wrap: break-word
 }
-.text-line a{
+
+.text-line a {
     color: #272727;
 
 }
 
 /* feature section */
-.feature{
+.feature {
     margin: 100px;
-    padding: 75px ;
+    padding: 75px;
     text-align: center;
-    background-color:  rgba(39, 39, 39, 0.05);
-     border-radius: 8px
+    background-color: rgba(39, 39, 39, 0.05);
+    border-radius: 8px
 }
-.our-feature{
-    
+
+.our-feature {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -153,44 +160,129 @@ word-wrap: break-word
 }
 
 /* hotdeals section */
-.hot-deals{
-    background-color: rgba(229, 84, 115, 0.05); 
+.hot-deals {
+    background-color: rgba(229, 84, 115, 0.05);
     border-radius: 8px;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     align-items: center;
 }
-.our-deals{
-    max-width: 1000px;
-    margin: 0 auto;
+
+.our-deals {
+
     padding: 200px;
 }
-.deals{
+
+.deals {
     max-width: 600px;
 }
-.our-deals h1{
+
+.our-deals h1 {
     color: #272727;
-font-size: 40px;
-font-family: Lato;
-font-weight: 800;
-word-wrap: break-word;
+    font-size: 40px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
 }
-.our-deals h1 span{
+
+.our-deals h1 span {
     color: #E55473;
-font-size: 40px;
-font-family: Lato;
-font-weight: 800;
-word-wrap: break-word;
+    font-size: 40px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
 }
-.our-deals p{
-    
-color: rgba(39, 39, 39, 0.60);
- font-size: 18px;
- font-family: Lato;
- font-weight: 400;
- line-height: 30px;
- word-wrap: break-word
+
+.our-deals p {
+
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
 }
-.deal-image{
-    height:300px ;
+
+.deal-image {
+    height: 300px;
+    margin-right: 100px;
+}
+
+.instagram {
+
+    text-align: center;
+}
+
+.insta-pics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+/* leatest deal section */
+.leatest-deals {
+    padding: 130px 100px;
+    background-image: url("images/Rectangle\ 9.png");
+}
+
+.update-form {
+    margin-left: 270px;
+}
+
+#email {
+    background-color: white;
+    padding: 22px 150px;
+    border-radius: 8px;
+
+}
+
+/* footer section */
+.shop {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.humble {
+    color: #E55473;
+    font-size: 48px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
+    margin: 10px;
+}
+
+.humble span {
+    color: white;
+    font-size: 48px;
+    font-family: Lato;
+    font-weight: 800;
+    word-wrap: break-word;
+}
+
+.do {
+    max-width: 500px;
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-family: Lato;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word
+}
+
+.goal {
+
+    background-color: #111010;
+    padding: 100px 200px;
+
+}
+
+.copyright {
+    margin: 10px;
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-family: Lato;
+    font-weight: 400;
+    word-wrap: break-word
 }
